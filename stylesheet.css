@@ -6,7 +6,6 @@
 }
 
 body{
-    /* background-image: url('/cover2.jpg'); */
     background-color: #edf6f9;
     color: #000;
 }
@@ -22,6 +21,8 @@ body{
     padding: 5%;
 }
 
+
+
 /*Navigation*/
 
 nav{
@@ -32,6 +33,22 @@ nav{
     right: 0;
     left: 0;
     z-index: 1;
+}
+
+.logo{
+    position: absolute;
+    left: 1rem;
+    top: .75rem;
+}
+
+#logo-title{
+    position: absolute;
+    left: 5rem;
+    top: 1.5rem;
+    color: cornflowerblue;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family:cursive;
 }
 
 .nav-list{
@@ -53,6 +70,7 @@ ul li a:hover{
     color: #ffba08;
     font-weight: bolder;
 }
+
 
 /*Home*/
 .header{
@@ -82,7 +100,10 @@ hr{
     width: 45vw;
     background-color: #ef476f;
 }
+
+
 /*About*/
+
 #about-img{
     display: block;
     width: 300px;
@@ -110,6 +131,7 @@ hr{
 
 
 /*Skills*/
+
 .skills-content{
     display: flex;
     justify-content: space-evenly;
@@ -125,7 +147,10 @@ hr{
     font-size: 1.25rem;
 }
 
+
+
 /*Contacts*/
+
 .contact-icons{
     width: 50px;
     margin: 1rem 0 1rem 10%;
@@ -149,6 +174,7 @@ a:hover{
 
 
 /*Footer*/
+
 .footer{
     width: 100%;
     height: 15vh;
